@@ -1,21 +1,14 @@
 // Components
-import PersonList from './components/list'
+import Login from './components/login'
 
+// App others....
 import './App.css'
 
 function App() {
-  const people = [
-  { name: 'Alice' },
-  { name: 'Bob' },
-  { name: 'Davi' }
-  ]
-
-  const user = 'Davi'
-
   return (
     <div className="App">
-      <h1>Hello {user}</h1>
-      <PersonList people={people}/>
+      <h1>App</h1>
+        <Login />
     </div>
   )
 }
